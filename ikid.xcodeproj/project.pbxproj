@@ -15,6 +15,7 @@
 		F8EA86862182BECD008C6CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA86842182BECD008C6CA0 /* LaunchScreen.storyboard */; };
 		F8EA86912182BECD008C6CA0 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA86902182BECD008C6CA0 /* ikidTests.swift */; };
 		F8EA869C2182BECD008C6CA0 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA869B2182BECD008C6CA0 /* ikidUITests.swift */; };
+		F8EA86AA2182F540008C6CA0 /* KnockKnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA86A92182F540008C6CA0 /* KnockKnockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F8EA86972182BECD008C6CA0 /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EA869B2182BECD008C6CA0 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		F8EA869D2182BECD008C6CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EA86A92182F540008C6CA0 /* KnockKnockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockKnockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F8EA867B2182BECC008C6CA0 /* FirstViewController.swift */,
 				F8EA867D2182BECC008C6CA0 /* SecondViewController.swift */,
 				F8EA867F2182BECC008C6CA0 /* Main.storyboard */,
+				F8EA86A92182F540008C6CA0 /* KnockKnockViewController.swift */,
 				F8EA86822182BECD008C6CA0 /* Assets.xcassets */,
 				F8EA86842182BECD008C6CA0 /* LaunchScreen.storyboard */,
 				F8EA86872182BECD008C6CA0 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EA86AA2182F540008C6CA0 /* KnockKnockViewController.swift in Sources */,
 				F8EA867E2182BECC008C6CA0 /* SecondViewController.swift in Sources */,
 				F8EA867A2182BECC008C6CA0 /* AppDelegate.swift in Sources */,
 				F8EA867C2182BECC008C6CA0 /* FirstViewController.swift in Sources */,

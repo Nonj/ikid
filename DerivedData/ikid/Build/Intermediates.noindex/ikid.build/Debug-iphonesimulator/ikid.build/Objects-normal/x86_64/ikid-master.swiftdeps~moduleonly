@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "d5f77bd99267dcd50ce8c2b481ce1bb5"
+build_time: [1540543250, 189181000]
+inputs:
+  "/Users/non/Documents/School/Senior/INFO 449/ikid/ikid/KnockKnockViewController.swift": [1540539238, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/ikid/ikid/SecondViewController.swift": [1540543044, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/ikid/ikid/AppDelegate.swift": [1540523852, 0]
+  "/Users/non/Documents/School/Senior/INFO 449/ikid/ikid/FirstViewController.swift": [1540535871, 0]

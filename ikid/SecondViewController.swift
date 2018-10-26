@@ -10,11 +10,25 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var viewMistletoe: UIImageView!
+    @IBOutlet weak var viewSetUp: UIView!
+    var isFlipped = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
 
+    @IBAction func btnFlip(_ sender: Any) {
+        if !isFlipped {
+            isFlipped = true
+            UIView.transition(from: viewSetUp, to: viewMistletoe, duration: 0.5, options: [.transitionFlipFromRight, .showHideTransitionViews])
+            
+        } else {
+            isFlipped = false
+            UIView.transition(from: viewMistletoe, to: viewSetUp, duration: 0.5, options: [.transitionFlipFromLeft, .showHideTransitionViews])
+        }
+    }
 }
 
